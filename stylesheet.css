@@ -1,0 +1,101 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  p, h3 {
+     font-family: 'Nunito Sans', sans-serif;
+
+  }
+
+  p {
+      font-size: 20px;
+  }
+
+
+  
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .landing {
+      background-image: url("./img/bee on flower.jpg");
+      background-size: cover;
+      height: 85vh;
+  }
+
+  .quote {
+      background-color: rgba(230,230,230, 0.5);
+      text-align: left;
+      display: flex;
+      flex-direction: row;
+      margin-top: 5vh;
+      
+  }
+
+  .quote p {
+      /* margin: 0 10vw 0 5vw; */
+  }
+
+  .bee-image {
+      height: 15vh;
+      margin-top: 28px;
+  }
+
+  .sample-button {
+      font-size: 20px;
+      width: 80%;
+      color: white;
+      background-color: green;
+      border-radius: 13px;
+      height: 40px;
+      border: solid 1px green;
+      margin-top: 4vh;
+
+  }
+
+  .important-b {
+      font-size: 70px;
+  }
+
+  .normal-text {
+    font-size: 48px;
+  }
+
+  .tagline {
+      margin-top: 35vh;
+      color: #391705;
+      font-family: 'Dancing Script', cursive;
+      line-height: 2em;
+  }
+
+  .info {
+      background-color: #FAF6E2;
+      padding: 10px 25px 0 25px;
+      
+  }
+
+  .sample-button-bottom {
+    width: 80%;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    border-radius: 13px;
+    height: 40px;
+    border: solid 1px green;
+    margin: 3vh 0 5vh 0;
+  }
+
+  .img-bee {
+      height: 10vh;
+  }
+
+  .quote p {
+      margin-top: 32px;
+  }
